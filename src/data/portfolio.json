@@ -1,0 +1,58 @@
+{
+  "personal": {
+    "name": "ANDI AL QAF",
+    "title": "WEB DEVELOPER & DESIGNER",
+    "description": "MERANCANG, MEMBANGUN, DAN MENGEMBANGKAN",
+    "heroImages": [
+      "/assets/hero/foto-1.png",
+      "/assets/hero/foto-2.jpg",
+      "/assets/hero/foto-3.jpg",
+      "/assets/hero/foto-5.jpg"
+    ]
+  },
+    "works": [
+    {
+      "id": "1",
+      "title": "Sikamali",
+      "type": "image",
+      "media": "/assets/works/project-1.png",
+      "description": "Sistem Informasi Kependudukan Masyarakat Lingkar Tambang PT. Ceria Nugraha Indotama",
+      "longDescription": "Sistem Informasi Kependudukan Masyarakat Lingkar Tambang (Sikamali) adalah sebuah platform digital komprehensif yang dirancang khusus untuk mengelola data kependudukan masyarakat yang tinggal di wilayah sekitar area operasional PT. Ceria Nugraha Indotama (CNI). Sistem ini menjadi solusi terintegrasi yang menghubungkan pemerintah daerah, perusahaan, dan masyarakat dalam satu ekosistem data yang akurat dan efisien. \n\nSecara fungsional, Sikamali memfasilitasi pencatatan data demografi penduduk seperti nama, alamat, status kependudukan, data keluarga, pendidikan, kesehatan, dan informasi sosio-ekonomi. Selain itu, sistem ini memiliki fitur khusus untuk memonitor status kesejahteraan masyarakat yang terdampak langsung oleh kegiatan operasional tambang, termasuk program tanggung jawab sosial perusahaan (CSR), bantuan sosial, dan inisiatif pemberdayaan ekonomi. \n\nSalah satu keunggulan utama Sikamali adalah kemampuannya menyajikan data secara real-time dan visual melalui dasbor interaktif. Tim manajemen dapat dengan mudah memantau tren kependudukan, mengidentifikasi kebutuhan mendesak, dan mengevaluasi efektivitas program bantuan yang telah disalurkan. Sistem ini juga dilengkapi dengan modul pelaporan yang canggih, memungkinkan pembuatan laporan berkala sesuai standar akuntabilitas pemerintah maupun korporat. Dengan implementasi Sikamali, PT. CNI dapat memastikan bahwa setiap program yang dirancang benar-benar sampai kepada masyarakat yang membutuhkan, menciptakan transparansi, akuntabilitas, dan keberlanjutan hubungan yang harmonis antara perusahaan dan komunitas lingkar tambang.",
+      "link": "https://sikamali.com/"
+    },
+
+    {
+      "id": "2",
+      "title": "GFS Ceria",
+      "type": "image",
+      "media": "/assets/works/project-2.png",
+      "description": "Integrated Accommodation Management System",
+      "longDescription": "GFS Ceria (Integrated Accommodation Management System) merupakan sebuah sistem informasi berbasis web yang dirancang untuk mengintegrasikan seluruh proses pengelolaan fasilitas akomodasi dalam satu platform yang terpusat, modern, dan mudah digunakan. Sistem ini membantu administrator dalam mengelola data penghuni, reservasi kamar, layanan konsumsi, layanan laundry, serta informasi operasional secara real-time sehingga proses administrasi menjadi lebih efektif, efisien, dan transparan.\n\nDengan memanfaatkan teknologi digital, GFS Ceria menggantikan proses pencatatan manual menjadi sistem yang terdokumentasi secara otomatis. Seluruh data tersimpan dalam basis data terpusat sehingga memudahkan proses pencarian informasi, monitoring, pelaporan, serta pengambilan keputusan berdasarkan data yang akurat.",
+      "link": "https://siakmo.devraffi.my.id/login"
+    }
+  ],
+  "achievements": [
+  
+   {
+      "id": "1",
+      "title": "International Hack For Humanity 2026",
+      "description": "Second Place And Public Voting",
+      "image": [
+        "/assets/achievements/awward-1.png",
+        "/assets/achievements/awward-2.png"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "BEST PORTFOLIO",
+      "description": "CSS DESIGN AWARDS",
+      "image": ""
+    }
+  ],
+  "contact": {
+    "email": "aalqafwiryawan1010@gmail.com",
+    "instagram": "https://www.instagram.com/a.alqafwiryawan_?igsh=bDgyOTF1a3gwMWN4",
+    "linkedin": "https://www.linkedin.com/in/andi-alqaf",
+    "github": "https://github.com/AndiAlqaf"
+  }
+}
