@@ -18,7 +18,7 @@ function Marquee({ text }: { text: string }) {
 }
 
 export default function Home() {
-  const { personal, works, achievements, contact } = portfolioData;
+  const { personal, works, experience, achievements, contact } = portfolioData;
   const [selectedWork, setSelectedWork] = useState<any>(null);
 
   return (
@@ -70,6 +70,32 @@ export default function Home() {
                 <h3>{work.title}</h3>
                 <p>{work.description}</p>
               </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Marquee Separator */}
+      <Marquee text="* PROFESSIONAL * EXPERIENCE * WORK " />
+
+      {/* Experience Section */}
+      <section id="experience" className="experience-section">
+        <h2 style={{ fontSize: "8rem", marginBottom: "5rem", textAlign: "center", color: "var(--color-bg)", textShadow: "6px 6px 0 var(--color-fg)", transform: "rotate(-2deg)", position: "relative", zIndex: 2 }}>
+          EXPERIENCE
+        </h2>
+        <div className="experience-list" style={{ padding: "0 2rem", maxWidth: "1200px", margin: "0 auto" }}>
+          {experience?.map((exp: any, index: number) => (
+            <div key={exp.id} className="experience-card">
+              {exp.logo && (
+                <div style={{ marginBottom: "1.5rem" }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={exp.logo} alt={`${exp.company} logo`} style={{ height: "80px", width: "auto", objectFit: "contain", border: "2px solid var(--color-fg)", padding: "0.5rem", backgroundColor: "var(--color-bg)" }} />
+                </div>
+              )}
+              <div className="experience-duration">{exp.duration}</div>
+              <h3>{exp.company}</h3>
+              <div className="experience-role">{exp.role}</div>
+              <p>{exp.description}</p>
             </div>
           ))}
         </div>

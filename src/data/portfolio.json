@@ -44,11 +44,31 @@
     },
     {
       "id": "2",
-      "title": "BEST PORTFOLIO",
-      "description": "CSS DESIGN AWARDS",
-      "image": ""
+      "title": "Olimpiade Vokasi Indonesia",
+      "description": "Juara 1 Digital & Creative Technology",
+      "image": "/assets/achievements/awward-3.png"
     }
   ],
+
+  "experience": [
+  {
+    "id": "1",
+    "company": "PT Anugrah Inti Spektra",
+    "role": "Frontend Developer",
+    "duration": "Jan 2025 - Sekarang",
+    "description": "Membangun antarmuka web interaktif",
+    "logo": "/assets/experience/Logo AIS.png"
+  },
+  {
+    "id": "2",
+    "company": "PT Primus Indonesia",
+    "role": "3D Desainer & Vr",
+    "duration": "Agustus-November 2026",
+    "description": "Membuat asset 3D untuk Vr yang di integrasikan ke Web perusahaan, berkerja sama dengan tim internal perusahaan",
+    "logo": "/assets/experience/Logo Primus.jpg"
+  }
+],
+
   "contact": {
     "email": "aalqafwiryawan1010@gmail.com",
     "instagram": "https://www.instagram.com/a.alqafwiryawan_?igsh=bDgyOTF1a3gwMWN4",
